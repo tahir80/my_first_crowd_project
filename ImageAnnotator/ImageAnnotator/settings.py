@@ -31,13 +31,13 @@ SECURE_SSL_REDIRECT = True
 
 
 MTURK_SANDBOX = 'https://mturk-requester-sandbox.us-east-1.amazonaws.com'
-AWS_ACCESS_KEY_ID = 'AKIAI7J6NKFG4OI2SGMA'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 # TODO: Swap comments on next two lines for production
 AWS_HOST = 'mechanicalturk.sandbox.amazonaws.com'
 REGION_NAME = 'us-east-1'
 ENDPOINT_URL = MTURK_SANDBOX
-URL_ROOT = 'http://localhost:8000'
+URL_ROOT = ''
 # URL_ROOT1 = 'https://localhost:8000'
 
 ALLOWED_HOSTS = []
